@@ -4,6 +4,7 @@
 ```
 cp vars/template.tfvars vars/dev-east.tfvars
 ```
+Be sure to update the values in your new `.tfvars` file
 
 ## Step 1: Initialize Repo
 ```
