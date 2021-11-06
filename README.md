@@ -1,7 +1,8 @@
-# Terraform Starter
+# terraform-eks-nginx
 
-## Step 0: Use template to create `.tfvars` file
+## Step 0: Set alias & use template to create `.tfvars` file
 ```
+alias k=kubectl
 cp vars/template.tfvars vars/dev-east.tfvars
 ```
 Be sure to update the values in your new `.tfvars` file
@@ -49,10 +50,13 @@ Expected results:
 
 # StatefulSets
 
-## Step 0: Set up an alias
+## Step 0: Set alias & use template to create `.tfvars` file
 ```
 alias k=kubectl
+
+cp vars/template.tfvars vars/dev-east.tfvars
 ```
+Be sure to update the values in your new `.tfvars` file
 
 ## Step 1: Create storageclasses, statefulsets, & services
 
