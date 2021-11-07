@@ -8,6 +8,6 @@ spec:
   type: LoadBalancer
   ports:
   - port: 80
-    name: web
+    name: web-resizable
   selector:
     app: nginx-stateful-resizable
